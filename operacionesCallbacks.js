@@ -21,14 +21,17 @@ valor = 2 //no se puede modificar
 
 
 // que el valor de res1 sea 15
-var res1 = //cambia(...completar)
-console.log(res1)
+var res1 = cambia(valor, porCinco)
+console.log('Res1: ' + res1)
 
 
 // que el valor de res2 sea 30
-var res2 = //cambia(...completar)
-console.log(res2)
+var res2 = cambia(valor,porDiez )
+console.log('Res2: ' + res2)
 
 
 var res3 = cambia(cambia(valor,porCinco),porDiez)
+console.log('Res3 (I guess is 160): ' + res3)
 // ¿Cuánto vale res3 acá? No vale hacer console.log ni nada por el estilo.
+
+
